@@ -1,0 +1,234 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|h:\\kuliah\\unsia\\semester 1\\visual\\project\\inventorysystem\\inventorysystem\\module\\purchaseorder\\incoming\\incomingpurchaseorder.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|solutionrelative:inventorysystem\\module\\purchaseorder\\incoming\\incomingpurchaseorder.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|h:\\kuliah\\unsia\\semester 1\\visual\\project\\inventorysystem\\inventorysystem\\module\\purchaseorder\\incoming\\incomingpurchaseorder.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|solutionrelative:inventorysystem\\module\\purchaseorder\\incoming\\incomingpurchaseorder.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|h:\\kuliah\\unsia\\semester 1\\visual\\project\\inventorysystem\\inventorysystem\\database\\purchaseorderdb.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|solutionrelative:inventorysystem\\database\\purchaseorderdb.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|h:\\kuliah\\unsia\\semester 1\\visual\\project\\inventorysystem\\inventorysystem\\module\\purchaseorder\\overview\\showpurchaseorder.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|solutionrelative:inventorysystem\\module\\purchaseorder\\overview\\showpurchaseorder.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|h:\\kuliah\\unsia\\semester 1\\visual\\project\\inventorysystem\\inventorysystem\\module\\purchaseorder\\overview\\showpurchaseorder.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|solutionrelative:inventorysystem\\module\\purchaseorder\\overview\\showpurchaseorder.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|h:\\kuliah\\unsia\\semester 1\\visual\\project\\inventorysystem\\inventorysystem\\module\\purchaseorder\\overview\\overviewpurchaseorder.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|solutionrelative:inventorysystem\\module\\purchaseorder\\overview\\overviewpurchaseorder.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|h:\\kuliah\\unsia\\semester 1\\visual\\project\\inventorysystem\\inventorysystem\\module\\product\\overview\\purchaseorderitem.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|solutionrelative:inventorysystem\\module\\product\\overview\\purchaseorderitem.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|h:\\kuliah\\unsia\\semester 1\\visual\\project\\inventorysystem\\inventorysystem\\homepage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|solutionrelative:inventorysystem\\homepage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|h:\\kuliah\\unsia\\semester 1\\visual\\project\\inventorysystem\\inventorysystem\\module\\product\\overview\\purchaseorderitem.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|solutionrelative:inventorysystem\\module\\product\\overview\\purchaseorderitem.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|h:\\kuliah\\unsia\\semester 1\\visual\\project\\inventorysystem\\inventorysystem\\module\\purchaseorder\\overview\\overviewpurchaseorder.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|solutionrelative:inventorysystem\\module\\purchaseorder\\overview\\overviewpurchaseorder.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|h:\\kuliah\\unsia\\semester 1\\visual\\project\\inventorysystem\\inventorysystem\\module\\transaction\\overview\\transactionoverview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|solutionrelative:inventorysystem\\module\\transaction\\overview\\transactionoverview.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|h:\\kuliah\\unsia\\semester 1\\visual\\project\\inventorysystem\\inventorysystem\\homepage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|solutionrelative:inventorysystem\\homepage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|h:\\kuliah\\unsia\\semester 1\\visual\\project\\inventorysystem\\inventorysystem\\module\\product\\overview\\overviewproduct.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{FC1FCFB6-25C1-42FA-816C-8BF3FB578A70}|InventorySystem\\InventorySystem.vbproj|solutionrelative:inventorysystem\\module\\product\\overview\\overviewproduct.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Homepage.vb",
+              "DocumentMoniker": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Homepage.vb",
+              "RelativeDocumentMoniker": "InventorySystem\\Homepage.vb",
+              "ToolTip": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Homepage.vb",
+              "RelativeToolTip": "InventorySystem\\Homepage.vb",
+              "ViewState": "AgIAADUAAAAAAAAAAAAuwE4AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-15T04:17:47.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Homepage.vb [Design]",
+              "DocumentMoniker": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Homepage.vb",
+              "RelativeDocumentMoniker": "InventorySystem\\Homepage.vb",
+              "ToolTip": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Homepage.vb [Design]",
+              "RelativeToolTip": "InventorySystem\\Homepage.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-15T04:44:21.851Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OverviewProduct.vb [Design]",
+              "DocumentMoniker": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Module\\Product\\Overview\\OverviewProduct.vb",
+              "RelativeDocumentMoniker": "InventorySystem\\Module\\Product\\Overview\\OverviewProduct.vb",
+              "ToolTip": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Module\\Product\\Overview\\OverviewProduct.vb [Design]",
+              "RelativeToolTip": "InventorySystem\\Module\\Product\\Overview\\OverviewProduct.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-15T04:33:01.604Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IncomingPurchaseOrder.vb",
+              "DocumentMoniker": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Module\\PurchaseOrder\\Incoming\\IncomingPurchaseOrder.vb",
+              "RelativeDocumentMoniker": "InventorySystem\\Module\\PurchaseOrder\\Incoming\\IncomingPurchaseOrder.vb",
+              "ToolTip": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Module\\PurchaseOrder\\Incoming\\IncomingPurchaseOrder.vb",
+              "RelativeToolTip": "InventorySystem\\Module\\PurchaseOrder\\Incoming\\IncomingPurchaseOrder.vb",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwCcAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-15T03:58:25.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IncomingPurchaseOrder.vb [Design]",
+              "DocumentMoniker": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Module\\PurchaseOrder\\Incoming\\IncomingPurchaseOrder.vb",
+              "RelativeDocumentMoniker": "InventorySystem\\Module\\PurchaseOrder\\Incoming\\IncomingPurchaseOrder.vb",
+              "ToolTip": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Module\\PurchaseOrder\\Incoming\\IncomingPurchaseOrder.vb [Design]",
+              "RelativeToolTip": "InventorySystem\\Module\\PurchaseOrder\\Incoming\\IncomingPurchaseOrder.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-15T03:58:19.834Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TransactionOverview.vb [Design]",
+              "DocumentMoniker": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Module\\Transaction\\Overview\\TransactionOverview.vb",
+              "RelativeDocumentMoniker": "InventorySystem\\Module\\Transaction\\Overview\\TransactionOverview.vb",
+              "ToolTip": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Module\\Transaction\\Overview\\TransactionOverview.vb [Design]",
+              "RelativeToolTip": "InventorySystem\\Module\\Transaction\\Overview\\TransactionOverview.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-15T03:58:12.568Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PurchaseOrderDB.vb",
+              "DocumentMoniker": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Database\\PurchaseOrderDB.vb",
+              "RelativeDocumentMoniker": "InventorySystem\\Database\\PurchaseOrderDB.vb",
+              "ToolTip": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Database\\PurchaseOrderDB.vb",
+              "RelativeToolTip": "InventorySystem\\Database\\PurchaseOrderDB.vb",
+              "ViewState": "AgIAADQAAAAAAAAAAAAqwFcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-15T03:37:31.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PurchaseOrderItem.vb",
+              "DocumentMoniker": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Module\\Product\\Overview\\PurchaseOrderItem.vb",
+              "RelativeDocumentMoniker": "InventorySystem\\Module\\Product\\Overview\\PurchaseOrderItem.vb",
+              "ToolTip": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Module\\Product\\Overview\\PurchaseOrderItem.vb",
+              "RelativeToolTip": "InventorySystem\\Module\\Product\\Overview\\PurchaseOrderItem.vb",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-15T03:30:45.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PurchaseOrderItem.vb [Design]",
+              "DocumentMoniker": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Module\\Product\\Overview\\PurchaseOrderItem.vb",
+              "RelativeDocumentMoniker": "InventorySystem\\Module\\Product\\Overview\\PurchaseOrderItem.vb",
+              "ToolTip": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Module\\Product\\Overview\\PurchaseOrderItem.vb [Design]",
+              "RelativeToolTip": "InventorySystem\\Module\\Product\\Overview\\PurchaseOrderItem.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-15T03:30:43.57Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OverviewPurchaseOrder.vb",
+              "DocumentMoniker": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Module\\PurchaseOrder\\Overview\\OverviewPurchaseOrder.vb",
+              "RelativeDocumentMoniker": "InventorySystem\\Module\\PurchaseOrder\\Overview\\OverviewPurchaseOrder.vb",
+              "ToolTip": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Module\\PurchaseOrder\\Overview\\OverviewPurchaseOrder.vb",
+              "RelativeToolTip": "InventorySystem\\Module\\PurchaseOrder\\Overview\\OverviewPurchaseOrder.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-15T02:52:39.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OverviewPurchaseOrder.vb [Design]",
+              "DocumentMoniker": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Module\\PurchaseOrder\\Overview\\OverviewPurchaseOrder.vb",
+              "RelativeDocumentMoniker": "InventorySystem\\Module\\PurchaseOrder\\Overview\\OverviewPurchaseOrder.vb",
+              "ToolTip": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Module\\PurchaseOrder\\Overview\\OverviewPurchaseOrder.vb [Design]",
+              "RelativeToolTip": "InventorySystem\\Module\\PurchaseOrder\\Overview\\OverviewPurchaseOrder.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-15T02:52:35.878Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShowPurchaseOrder.vb",
+              "DocumentMoniker": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Module\\PurchaseOrder\\Overview\\ShowPurchaseOrder.vb",
+              "RelativeDocumentMoniker": "InventorySystem\\Module\\PurchaseOrder\\Overview\\ShowPurchaseOrder.vb",
+              "ToolTip": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Module\\PurchaseOrder\\Overview\\ShowPurchaseOrder.vb",
+              "RelativeToolTip": "InventorySystem\\Module\\PurchaseOrder\\Overview\\ShowPurchaseOrder.vb",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwDAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-15T02:50:09.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShowPurchaseOrder.vb [Design]",
+              "DocumentMoniker": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Module\\PurchaseOrder\\Overview\\ShowPurchaseOrder.vb",
+              "RelativeDocumentMoniker": "InventorySystem\\Module\\PurchaseOrder\\Overview\\ShowPurchaseOrder.vb",
+              "ToolTip": "H:\\Kuliah\\Unsia\\Semester 1\\Visual\\Project\\InventorySystem\\InventorySystem\\Module\\PurchaseOrder\\Overview\\ShowPurchaseOrder.vb [Design]",
+              "RelativeToolTip": "InventorySystem\\Module\\PurchaseOrder\\Overview\\ShowPurchaseOrder.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-12-15T02:50:08.403Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
