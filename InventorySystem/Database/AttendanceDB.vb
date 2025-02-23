@@ -18,7 +18,7 @@ Module AttendanceDB
 
         cmd.Parameters.AddWithValue("@employee_id", EmployeeID)
         cmd.Parameters.AddWithValue("@date", DateTime.Now)
-        cmd.Parameters.AddWithValue("@start", DateTime.Now.ToString("HH:mm:ss"))
+        cmd.Parameters.AddWithValue("@start", DateTime.Now.ToString("HH:mm:ss")) ' Date and Time
         cmd.Parameters.AddWithValue("@status", "IN")
 
         Dim i = cmd.ExecuteNonQuery

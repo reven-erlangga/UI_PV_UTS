@@ -8,6 +8,13 @@ Imports ZXing
 Imports ZXing.Common
 Imports ZXing.Rendering
 
+' For Tugas
+' Control Printing
+' Report Printing
+' Alignement Printed Text
+' Calculate Text
+' For-Loop
+
 Public Class ShowPurchaseOrder
     Public PurchaseOrderID As Integer
 
@@ -21,7 +28,7 @@ Public Class ShowPurchaseOrder
 
             Dim products = PurchaseOrderListDB.FetchByPurchaseOrderID(PurchaseOrderID)
 
-            If products IsNot Nothing Then
+            If products IsNot Nothing Then ' If Else Statement
                 For Each division In products
                     Dim product = ProductDB.FindByID(division.ProductID)
 
@@ -50,7 +57,7 @@ Public Class ShowPurchaseOrder
             MTB_VFax.Text = purchaseOrder.SupplierFax
             MTB_VAddress.Text = purchaseOrder.SupplierAddress
         Catch ex As Exception
-
+            MsgBox("Something error")
         End Try
     End Sub
 
@@ -65,7 +72,7 @@ Public Class ShowPurchaseOrder
         Dim headerFont As XFont = New XFont("Arial", 12, XFontStyleEx.Bold)
         Dim textFont As XFont = New XFont("Arial", 12, XFontStyleEx.Regular)
 
-        gfx.DrawString("Purchase Order", titleFont, XBrushes.Black, New XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.TopCenter)
+        gfx.DrawString("Purchase Order", titleFont, XBrushes.Black, New XRect(0, 0, page.Width.Point, page.Height.Point), XStringFormats.TopCenter) ' Alignment Printed Text
 
         Dim purchaseOrder = PurchaseOrderDB.FindByID(PurchaseOrderID)
 
@@ -106,7 +113,7 @@ Public Class ShowPurchaseOrder
             gfx.DrawString(product.Name, textFont, XBrushes.Black, New XPoint(50, yPoint))
             gfx.DrawString(item.Qty, textFont, XBrushes.Black, New XPoint(200, yPoint))
             gfx.DrawString(product.Price.ToString("F2"), textFont, XBrushes.Black, New XPoint(300, yPoint))
-            Dim itemTotal As Double = product.Price * item.Qty
+            Dim itemTotal As Double = product.Price * item.Qty ' Calculate
             gfx.DrawString(itemTotal.ToString("F2"), textFont, XBrushes.Black, New XPoint(400, yPoint))
             grandTotal += itemTotal
             yPoint += 20

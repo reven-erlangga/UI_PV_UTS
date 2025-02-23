@@ -42,10 +42,13 @@
     Private Sub MB_Order_Click(sender As Object, e As EventArgs) Handles MB_Order.Click
         Dim TransactionModel As New TransactionModel()
         Dim TransactionLists As New List(Of TransactionListModel)()
+        Dim grandTotal As String ' Identification String
+
+        grandTotal = Convert.ToDouble(ML_TotalPrice.Text)
 
         TransactionModel.CustName = MTB_VCustomerName.Text
         TransactionModel.Note = MTB_VNote.Text
-        TransactionModel.GrandTotal = Convert.ToDouble(ML_TotalPrice.Text)
+        TransactionModel.GrandTotal = grandTotal
 
         For Each row As DataGridViewRow In DGV_ProductList.Rows
             If Not row.IsNewRow Then

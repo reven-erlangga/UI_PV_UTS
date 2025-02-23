@@ -5,20 +5,18 @@ Public Class Homepage
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         MT_Clock.Text = DateTime.Now().ToString("dd MMM yyyy")
 
-        C_Attendance.Series.Clear()
+        ' Contoh penggunaan My.Application
+        Console.WriteLine("Nama Aplikasi: " & My.Application.Info.Title)
 
-        Dim attendanceCharts = AttendanceChartDB.ChartByDepartment(Date.Now().AddDays(-7), Date.Now())
-
-        If (attendanceCharts IsNot Nothing) Then
-            For Each attendanceChart In attendanceCharts
-                If C_Attendance.Series.IsUniqueName(attendanceChart.Department) Then
-                    C_Attendance.Series.Add(attendanceChart.Department)
-                End If
-
-                C_Attendance.Series(attendanceChart.Department).Points.AddXY(attendanceChart.AttendanceDate.ToString("dd MMM yyyy"), attendanceChart.TotalAttendance)
-            Next
+        ' Contoh penggunaan My.Computer.FileSystem
+        If Not My.Computer.FileSystem.DirectoryExists("C:\Temp") Then
+            My.Computer.FileSystem.CreateDirectory("C:\Temp")
         End If
+
+        ' Contoh penggunaan My.Settings
+        My.Settings.Reload()
     End Sub
+
 
     Private Sub MetroTabPage1_Click(sender As Object, e As EventArgs) Handles MTP_Overview.Click
 
@@ -52,54 +50,54 @@ Public Class Homepage
     End Sub
 
     Private Sub MTC_TabControl_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MTC_TabControl.SelectedIndexChanged
-        If MTC_TabControl.SelectedTab Is MTP_Product Then
-            Dim QueryProducts = ProductDB.Fetch()
+        Select Case MTC_TabControl.SelectedTab.Name
+            Case "MTP_Product"
+                Dim QueryProducts = ProductDB.Fetch()
+                If QueryProducts IsNot Nothing Then
+                    MT_TotalProduct.Text = QueryProducts.Count().ToString() + " Products"
+                End If
 
-            If QueryProducts IsNot Nothing Then
-                MT_TotalProduct.Text = QueryProducts.Count().ToString() + " Products"
-            End If
+            Case "MTP_Employee"
+                Dim employees = EmployeeDB.Fetch()
+                If employees IsNot Nothing Then
+                    MT_TotalEmployee.Text = employees.Count().ToString() + " Employees"
+                End If
 
-        ElseIf MTC_TabControl.SelectedTab Is MTP_Employee Then
-            Dim employees = EmployeeDB.Fetch()
+            Case "MTP_Transaction"
+                Dim TotalTransaction = TransactionDB.TotalTransaction()
+                Dim TotalCustomer = TransactionDB.TotalCustomer()
 
-            If employees IsNot Nothing Then
-                MT_TotalEmployee.Text = employees.Count().ToString() + " Employees"
-            End If
+                MT_TotalTransaction.Text = TotalTransaction.ToString() + " Transactions"
+                MT_TotalCustomer.Text = TotalCustomer.ToString() + " Customers"
 
-        ElseIf MTC_TabControl.SelectedTab Is MTP_Transaction Then
+            Case "MTP_PO"
+                Dim QueryPO = PurchaseOrderDB.TotalPO()
+                Dim TotalProgressPO = PurchaseOrderDB.TotalPOByStatus("Progress")
+                Dim TotalCompletedPO = PurchaseOrderDB.TotalPOByStatus("Completed")
 
-            Dim TotalTransaction = TransactionDB.TotalTransaction()
-            Dim TotalCustomer = TransactionDB.TotalCustomer()
+                MT_TotalPO.Text = QueryPO.ToString() + " Purchase Orders"
+                MT_TotalPOProgress.Text = TotalProgressPO.ToString() + " Purchase Orders Progress"
+                MT_TotalPOCompleted.Text = TotalCompletedPO.ToString() + " Purchase Orders Completed"
+        End Select
 
-            MT_TotalTransaction.Text = TotalTransaction.ToString() + " Transactions"
-            MT_TotalCustomer.Text = TotalCustomer.ToString() + " Customers"
-
-        ElseIf MTC_TabControl.SelectedTab Is MTP_PO Then
-            Dim QueryPO = PurchaseOrderDB.TotalPO()
-            Dim TotalProgressPO = PurchaseOrderDB.TotalPOByStatus("Progress")
-            Dim TotalCompletedPO = PurchaseOrderDB.TotalPOByStatus("Completed")
-
-            MT_TotalPO.Text = QueryPO.ToString() + " Purchase Orders"
-            MT_TotalPOProgress.Text = TotalProgressPO.ToString() + " Purchase Orders Progress"
-            MT_TotalPOCompleted.Text = TotalCompletedPO.ToString() + " Purchase Orders Completed"
-        End If
     End Sub
 
     Public Sub DrawPieChart(ByVal percents() As Integer, ByVal colors() As Color,
-ByVal surface As Graphics, ByVal location As Point, ByVal pieSize As Size)
-        Dim sum As Integer = 0
+ByVal surface As Graphics, ByVal location As Point, ByVal pieSize As Size, ByRef total As Integer)
+
+        total = 0
         For Each percent As Integer In percents
-            sum += percent
+            total += percent
         Next
+
         Dim percentTotal As Integer = 0
         For percent As Integer = 0 To percents.Length() - 1
             surface.FillPie(
-            New SolidBrush(colors(percent)),
-            New Rectangle(location, pieSize), CType(percentTotal * 360 / 100, Single),
-            CType(percents(percent) * 360 / 100, Single))
+        New SolidBrush(colors(percent)),
+        New Rectangle(location, pieSize), CType(percentTotal * 360 / 100, Single),
+        CType(percents(percent) * 360 / 100, Single))
             percentTotal += percents(percent)
         Next
-        Return
     End Sub
 
     Private Sub MetroTile1_Click_1(sender As Object, e As EventArgs) Handles MT_Product.Click

@@ -28,19 +28,21 @@ Public Class StaffEmployee
     End Sub
 
     Private Sub MB_ChangeRFIDScan_Click(sender As Object, e As EventArgs) Handles MB_ChangeRFIDScan.Click
+        ChangeScanValue(IsRFIDScan)
+
         If IsRFIDScan Then
-            IsRFIDScan = False
             MB_ChangeRFIDScan.Text = "Insert RFID"
-
-
         Else
-            IsRFIDScan = True
             MB_ChangeRFIDScan.Text = "Stop Scanning"
             RFID = ""
-
         End If
 
         HL_RFID.Select()
+    End Sub
+
+    ' ByRef
+    Private Sub ChangeScanValue(ByRef status As Boolean)
+        status = Not status
     End Sub
 
     Private Sub HL_RFID_KeyPress(sender As Object, e As KeyPressEventArgs) Handles HL_RFID.KeyPress

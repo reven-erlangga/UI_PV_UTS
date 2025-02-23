@@ -170,7 +170,7 @@ Partial Class AbsenceMonitoring
         'HL_VAttendanceTime
         '
         Me.HL_VAttendanceTime.AutoScroll = True
-        Me.HL_VAttendanceTime.AutoScrollMinSize = New System.Drawing.Size(10, 10)
+        Me.HL_VAttendanceTime.AutoScrollMinSize = New System.Drawing.Size(10, 0)
         Me.HL_VAttendanceTime.AutoSize = False
         Me.HL_VAttendanceTime.BackColor = System.Drawing.SystemColors.Window
         Me.HL_VAttendanceTime.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.16!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))

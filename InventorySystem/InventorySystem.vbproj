@@ -382,6 +382,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Module\Transaction\Order\OrderTransaction.resx">
       <DependentUpon>OrderTransaction.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Module\Transaction\Overview\TransactionOverview.resx">
       <DependentUpon>TransactionOverview.vb</DependentUpon>
@@ -397,6 +398,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Product.resx">
       <DependentUpon>Product.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Product_GenerateBarcode.resx">
       <DependentUpon>Product_GenerateBarcode.vb</DependentUpon>

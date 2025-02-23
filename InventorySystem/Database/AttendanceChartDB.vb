@@ -7,6 +7,8 @@ Public Class AttendanceChart
 
 End Class
 
+' While Loop
+' Function
 Module AttendanceChartDB
     Function ChartByDepartment(FromDate As Date, ToDate As Date) As List(Of AttendanceChart)
         Dim attendanceCharts As New List(Of AttendanceChart)

@@ -9,7 +9,7 @@ Module DepartmentDB
     Function Fetch() As List(Of DepartmentModel)
         Connection.Connect()
 
-        Dim departments As New List(Of DepartmentModel)
+        Dim departments As New List(Of DepartmentModel) ' Collection
         Dim cmd As New MySqlCommand("SELECT * FROM `departments`", Connection.conn)
 
         Dim reader = cmd.ExecuteReader()

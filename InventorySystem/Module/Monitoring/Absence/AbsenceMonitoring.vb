@@ -3,6 +3,7 @@ Imports System.Drawing.Imaging
 
 Public Class AbsenceMonitoring
 
+    ' Date and Time
     Private Sub HL_RFID_KeyPress(sender As Object, e As KeyPressEventArgs) Handles HL_RFID.KeyPress
         If (e.KeyChar = Microsoft.VisualBasic.ChrW(Keys.Return)) Then
             Dim employee = EmployeeDB.FindByRFID(HL_RFID.Text)
