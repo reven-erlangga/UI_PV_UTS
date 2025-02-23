@@ -43,6 +43,7 @@ Partial Class AbsenceNotFoundDialog
         Me.HtmlLabel1.Size = New System.Drawing.Size(294, 78)
         Me.HtmlLabel1.TabIndex = 0
         Me.HtmlLabel1.Text = "Data Not Found!"
+        Me.HtmlLabel1.UseWaitCursor = True
         '
         'AbsenceNotFoundDialog
         '
